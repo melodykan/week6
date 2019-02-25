@@ -1,3 +1,26 @@
+.bg-image {
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.bg-image.bg-image-gradient:before {
+  content: '';
+  position: absolute;
+  background-image: linear-gradient(to top, #fff, rgba(255, 255, 255, 0.1));
+  width: 100%;
+  height: 100%;
+}
+
+.parallax{
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 500px;
+}
+
 .item {
   margin-right: 10px;
   margin-bottom: 10px;
